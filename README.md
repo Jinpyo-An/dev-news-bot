@@ -1,4 +1,4 @@
-# geeknews-bot
+# dev-news-bot
 
 To install dependencies:
 
