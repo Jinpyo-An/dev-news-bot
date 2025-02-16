@@ -1,13 +1,13 @@
-import RSSParser from 'rss-parser';
+import Parser from 'rss-parser';
 
-const parser = new RSSParser();
+const parser = new Parser();
 
-export async function parseRSSFeed(url: string) {
+export async function parseFeed(url: string) {
   try {
     const feed = await parser.parseURL(url);
     console.info(feed.title);
     feed.items.forEach(entry => {
-      console.info(entry.title + ':' + entry.link);
+      console.info(entry.title + '\n' + entry.link);
     });
   } catch (error) {
     console.error(error);
