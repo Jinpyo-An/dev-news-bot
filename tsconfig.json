@@ -21,11 +21,8 @@
       "@/*": [
         "src/*"
       ],
-      "@common/*": [
-        "src/common/*"
-      ],
-      "@student/*": [
-        "src/student/*"
+      "@rss_parser/*": [
+        "src/rss_parser/*"
       ]
     },
     // Best practices

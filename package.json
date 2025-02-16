@@ -1,6 +1,6 @@
 {
   "name": "dev-news-bot",
-  "module": "index.ts",
+  "module": "app.init.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
