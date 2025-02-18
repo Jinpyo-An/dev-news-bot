@@ -1,1 +1,1 @@
-console.log("Helo")
+console.log("Hello I'm WiSoft dev-news-bot!!")
