@@ -10,7 +10,7 @@ if (!rssFeedUrl) {
 }
 
 export function scheduleRSSFeed(channel: TextChannel) {
-  cron.schedule('0 9 * * *', async () => {
+  cron.schedule('0 5 * * *', async () => {
     console.info('Running RSS feed update at 9 AM KST');
     try {
       if (!rssFeedUrl) return;
